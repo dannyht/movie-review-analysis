@@ -1,0 +1,16 @@
+{
+  "name": "movie-review-analysis",
+  "version": "1.0.0",
+  "description": "A web scraper that acquires movie reviews from different sources",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Danut Hostiuc",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
