@@ -4,9 +4,9 @@ const axios = require('axios')
 const app = express()
 
 
-const apiKey = '38f4133e';
+const apiKey = '';
 const omdbApiUrl = 'http://www.omdbapi.com/?apikey='
-const movieName = 'A+Beautiful+Mind'
+const movieName = ''
 
 app.get('/', (req, res) => {
     res.json('Welcome to my Movie Review Analysis API')
