@@ -2,9 +2,10 @@
   "name": "movie-review-analysis",
   "version": "1.0.0",
   "description": "A web scraper that acquires movie reviews from different sources",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "build": "webpack --mode=production",
+    "start": "nodemon ./src/index.js"
   },
   "author": "Danut Hostiuc",
   "license": "ISC",
@@ -14,5 +15,12 @@
     "express": "^4.17.2",
     "mongoose": "^6.2.4",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "babel-loader": "^8.2.3",
+    "dotenv": "^16.0.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
   }
 }
